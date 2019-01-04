@@ -16,12 +16,16 @@ body {
 }
 
 header {
-  padding: 5%;
+  padding: 2% 7%;
 }
 
 .logo {
   width: 225px;
   height: auto;
+}
+
+main {
+  text-align: center;
 }
 
 h2 {
@@ -35,9 +39,10 @@ h2 {
 .signup {
   color:  hsl(192, 100%, 9%);
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-family: Poppins, sans-serif;
   font-weight: 800;
+  text-align: center;
 }
 
 input {
@@ -63,7 +68,7 @@ button {
   font-family: "Open Sans", sans-serif;
   font-size: 1.8rem;
   font-weight: 600;
-  padding: 8px 24px;
+  padding: 6px 24px;
   background-color: hsl(322, 100%, 66%);
   border: 1px solid hsl(322, 100%, 66%);
   color: #FAFAFA;
@@ -99,16 +104,18 @@ img {
 }
 
 main {
-  padding: 5%;
+  padding: 2% 7%;
 }
 
 footer {
+  margin-top: 7%;
   background-color: hsl(192, 100%, 9%);
-  padding: 5%;
+  padding: 8% 7%;
+  color: #fff;
 }
 
-.footer-logo svg {
-  color: #ffffff;
+footer svg {
+  fill: #fff;
 }
 
 footer ul {
@@ -126,7 +133,7 @@ footer ul {
 
 .icon svg {
   color: #fff;
-  width: 37px;
+  width: 32px;
 }
 
 .footer-nav {
@@ -148,4 +155,56 @@ footer ul {
 .footer-nav a:hover, .footer-nav a:active {
   color: #fff;
   text-decoration: underline;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  main {
+    padding: 5% 15%;
+  }
+
+  .signup-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .email-field {
+    width: 30%;
+    padding: 15px;
+  }
+
+  .submit-button {
+    width: 20%;
+    padding: 15px;
+  }
+
+  #footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: 15px 0 0 0;
+    padding: 5px 0 5px 0;
+  }
+  
+  .footer-nav li {
+    padding-right: 25px;
+  }
+
+  .footer-nav li:last-child {
+    padding-right: 0;
+  }
+
+  footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    text-align: right;
+  }
+
 }

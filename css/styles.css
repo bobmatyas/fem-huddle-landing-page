@@ -1,0 +1,41 @@
+
+html {
+  font-size: 10px; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  color:  hsl(192, 100%, 9%);
+  text-align: center;
+  font-size: 3rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
+}
+
+.tag-line {
+  color: hsl(208, 11%, 55%);
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 30px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  padding: 5%;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  padding: 5%;
+}

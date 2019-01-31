@@ -31,7 +31,7 @@ main {
 h2 {
   color:  hsl(192, 100%, 9%);
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.4rem;
   font-family: Poppins, sans-serif;
   font-weight: 800;
 }
@@ -73,6 +73,10 @@ button {
   border-radius: 9px;
   width: 100%;
   cursor: pointer;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+  box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
 }
 
 .tag-line {
@@ -87,6 +91,10 @@ img {
   height: auto;
 }
 
+.mockup {
+  margin: 50px 0;
+}
+
 main {
   padding: 2% 7%;
 }
@@ -95,7 +103,7 @@ main {
 footer {
   margin-top: 7%;
   background-color: hsl(192, 100%, 9%);
-  padding: 8% 7%;
+  padding: 100px 7%;
   color: #fff;
 }
 
@@ -106,6 +114,7 @@ footer svg {
 footer ul {
   list-style-type: none;
   padding: 0;
+  margin-top: 50px;
 }
 
 .social-icons {
@@ -118,7 +127,7 @@ footer ul {
 
 .icon svg {
   color: #fff;
-  width: 32px;
+  width: 30px;
 }
 
 .footer-nav {
@@ -159,25 +168,30 @@ form {
 
   .email-field {
     width: 40%;
-    padding: 15px;
+    padding: 15px 0;
   }
 
   .submit-button {
     width: 25%;
-    padding: 15px;
+    padding: 15px 0;
+  }
+
+  button {
+    width: 60%;
   }
 
   #footer {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
   }
 
   .footer-nav {
     display: flex;
     justify-content: flex-end;
     align-items: baseline;
-    margin: 15px 0 0 0;
-    padding: 5px 0 5px 0;
+    margin: 0;
+    padding: 0;
   }
   
   .footer-nav li {
@@ -189,7 +203,7 @@ form {
   }
 
   footer p {
-    margin: 0;
+    margin: 50px 0 0 0;
     padding: 0;
     font-size: 1.4rem;
     text-align: right;

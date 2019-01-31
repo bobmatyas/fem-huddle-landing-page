@@ -39,11 +39,12 @@ h2 {
 .signup {
   color:  hsl(192, 100%, 9%);
   text-align: center;
-  font-size: 2.1rem;
+  font-size: 3.1rem;
   font-family: Poppins, sans-serif;
   font-weight: 800;
   text-align: center;
   padding: 25px;
+  display: inline-block;
 }
 
 input {
@@ -59,10 +60,6 @@ input {
     box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
     -webkit-transition: color .1s ease-in-out;
     transition: color .1s ease-in-out;
-  &:focus {
-    outline: 3px solid #2E1BA6;
-    border-color: transparent;
-  }
 }
 
 button {
@@ -76,20 +73,6 @@ button {
   border-radius: 9px;
   width: 100%;
   cursor: pointer;
-  &:focus {
-    outline: 2px dotted #2E1BA6;
-    outline-offset: 4px;
-  }
-  &::-moz-focus-inner {
-    border: 0;
-  }
-  &:hover {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
-    box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
-    -webkit-transition: color .1s ease-in-out;
-    transition: color .1s ease-in-out;
 }
 
 .tag-line {
